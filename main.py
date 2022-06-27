@@ -3,7 +3,7 @@ from random import randrange as r
 #dataset load
 trainedData = cv2.CascadeClassifier('Face.xml')
 #choose a image
-img = cv2.imread('IMG_20211008_153314826.jpg')
+img = cv2.imread('sample image.jpg')
 #conversion to black n white (grayscale)
 grayimg = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 #detect faces
